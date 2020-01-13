@@ -16,6 +16,7 @@ public class Student {
     private String name;
     private String programName;
     private String address;
+    //add program name
     
     //create default constructor
     public Student(){
