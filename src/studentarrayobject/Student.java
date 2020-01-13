@@ -16,7 +16,6 @@ public class Student {
     private String name;
     private String programName;
     private String address;
-    private String lastName;
     //add program name
     
     //create default constructor
@@ -80,12 +79,6 @@ public class Student {
         return address;
     }
 
-    /**
-     * @return the lastName
-     */
-    public String getLastName() {
-        return lastName;
-    }
     
     
     
