@@ -14,6 +14,7 @@ public class Student {
     private int id;
     private String name;
     private String programName;
+    private String address;
     
     //create default constructor
     public Student(){
@@ -67,6 +68,13 @@ public class Student {
      */
     public void setProgramName(String programName) {
         this.programName = programName;
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
     }
     
     
